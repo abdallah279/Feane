@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feane</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Start Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#">Feane</a>
+          <button class="navbar-toggler fs-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-uppercase p-2 p-lg-3 active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-uppercase p-2 p-lg-3" href="#menu">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-uppercase p-2 p-lg-3" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-uppercase p-2 p-lg-3" href="#book">Book Table</a>
+              </li>
+            </ul>
+          </div>
+          <div class="option d-none d-lg-block">
+              <a href="" class="m-2"><i class="fa-solid fa-user"></i></a>
+              <a href="" class="m-2"><i class="fa-solid fa-cart-shopping"></i></a>
+              <a href="" class="m-2"><i class="fa-solid fa-magnifying-glass"></i></a>
+              <div class="btn main-btn">Order Online</div>
+          </div>
+        </div>
+      </nav>
+      <!-- End Navbar -->
+      <!-- Start Home -->
+      <section class="home carousel slide" data-bs-ride="carousel" id="slide">
+        <div class="container">
+            <div class="carousel-container position-absolute top-50">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-7 col-lg-6">
+                                <h1>Fast Food Restourant</h1>
+                                <p>Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste magni quos nihil ducimus libero ipsam.</p>
+                                <div class="btn main-btn">Order Now</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-7 col-lg-6">
+                                <h1>Fast Food Restourant</h1>
+                                <p>Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste magni quos nihil ducimus libero ipsam.</p>
+                                <div class="btn main-btn">Order Now</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-7 col-lg-6">
+                                <h1>Fast Food Restourant</h1>
+                                <p>Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste magni quos nihil ducimus libero ipsam.</p>
+                                <div class="btn main-btn">Order Now</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#slide" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#slide" data-bs-slide-to="1" ></li>
+                    <li data-bs-target="#slide" data-bs-slide-to="2" ></li>
+                </ol>
+            </div>
+        </div>
+      </section>
+      <!-- End Home -->
+      <!-- Start Offer section -->
+      <section id="home" class="offer padding-bottom">
+          <div class="container">
+              <div class="boxs row">
+                  <div class="col-md-6">
+                    <div class="box">
+                        <div class="img">
+                            <img src="images/o1.jpg" alt="">
+                        </div>
+                        <div class="detail">
+                            <h5>Tasty Thursdays</h5>
+                            <h6><span>20%</span> Off</h6>
+                            <div class="btn main-btn">
+                                Order Now
+                            </div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="box">
+                        <div class="img">
+                            <img src="images/o2.jpg" alt="">
+                        </div>
+                        <div class="detail">
+                            <h5>Pizza Days</h5>
+                            <h6><span>15%</span> Off</h6>
+                            <div class="btn main-btn">
+                                Order Now
+                            </div>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <!-- End Offer section -->
+      <!-- Start Menu Section -->
+      <section id="menu" class="menu padding-bottom">
+          <div class="container">
+              <div class="title text-center">
+                  <h2>Our Menu</h2>
+              </div>
+              <ul class="filter-menu list-unstyled mt-5 mb-3 d-flex justify-content-center align-items-center">
+                <li class="active">All</li>
+                <li>Burger</li>
+                <li>Pizza</li>
+                <li>Pasta</li>
+                <li>Fries</li>
+              </ul>
+              <div class="filter-content mb-5">
+                  <div class="row">
+                      <div class="col-sm-6 col-lg-4">
+                          <div class="box card">
+                            <div class="card-img d-flex justify-content-center align-items-center">
+                                <img src="images/f1.png" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h5>Delicious Pizza</h5>
+                                <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+                                <div class="card-option d-flex justify-content-between align-items-center">
+                                    <span>$20</span>
+                                    <a href="#" class="btn main-btn">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                    </a>
+                                </div>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="col-sm-6 col-lg-4">
+                          <div class="box card">
+                            <div class="card-img d-flex justify-content-center align-items-center">
+                                <img src="images/f2.png" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h5>Tasty Burger</h5>
+                                <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+                                <div class="card-option d-flex justify-content-between align-items-center">
+                                    <span>$15</span>
+                                    <a href="#" class="btn main-btn">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                    </a>
+                                </div>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="col-sm-6 col-lg-4">
+                          <div class="box card">
+                            <div class="card-img d-flex justify-content-center align-items-center">
+                                <img src="images/f3.png" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h5>Delicious Pizza</h5>
+                                <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+                                <div class="card-option d-flex justify-content-between align-items-center">
+                                    <span>$17</span>
+                                    <a href="#" class="btn main-btn">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                    </a>
+                                </div>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="col-sm-6 col-lg-4">
+                          <div class="box card">
+                            <div class="card-img d-flex justify-content-center align-items-center">
+                                <img src="images/f4.png" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h5>Delicious Pasta</h5>
+                                <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+                                <div class="card-option d-flex justify-content-between align-items-center">
+                                    <span>$18</span>
+                                    <a href="#" class="btn main-btn">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                    </a>
+                                </div>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="col-sm-6 col-lg-4">
+                          <div class="box card">
+                            <div class="card-img d-flex justify-content-center align-items-center">
+                                <img src="images/f5.png" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h5>Frech Fries</h5>
+                                <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+                                <div class="card-option d-flex justify-content-between align-items-center">
+                                    <span>$10</span>
+                                    <a href="#" class="btn main-btn">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                    </a>
+                                </div>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="col-sm-6 col-lg-4">
+                          <div class="box card">
+                            <div class="card-img d-flex justify-content-center align-items-center">
+                                <img src="images/f6.png" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h5>Delicious Pizza</h5>
+                                <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+                                <div class="card-option d-flex justify-content-between align-items-center">
+                                    <span>$15</span>
+                                    <a href="#" class="btn main-btn">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                    </a>
+                                </div>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="col-sm-6 col-lg-4">
+                          <div class="box card">
+                            <div class="card-img d-flex justify-content-center align-items-center">
+                                <img src="images/f7.png" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h5>Tasty Burger</h5>
+                                <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+                                <div class="card-option d-flex justify-content-between align-items-center">
+                                    <span>$12</span>
+                                    <a href="#" class="btn main-btn">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                    </a>
+                                </div>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="col-sm-6 col-lg-4">
+                          <div class="box card">
+                            <div class="card-img d-flex justify-content-center align-items-center">
+                                <img src="images/f8.png" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h5>Tasty Burger</h5>
+                                <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+                                <div class="card-option d-flex justify-content-between align-items-center">
+                                    <span>$14</span>
+                                    <a href="#" class="btn main-btn">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                    </a>
+                                </div>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="col-sm-6 col-lg-4">
+                          <div class="box card">
+                            <div class="card-img d-flex justify-content-center align-items-center">
+                                <img src="images/f9.png" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h5>Delicious Pasta</h5>
+                                <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+                                <div class="card-option d-flex justify-content-between align-items-center">
+                                    <span>$10</span>
+                                    <a href="#" class="btn main-btn">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                    </a>
+                                </div>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="button text-center">
+                <a href="#" class="btn main-btn">View More</a>
+              </div>
+          </div>
+      </section>
+      <!-- End Menu Section -->
+      <!-- Start About Section -->
+      <section id="about" class="about padding-bottom padding-top">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="img d-flex justify-content-center align-items-center">
+                        <img src="images/about-img.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="detail">
+                        <h2>We Are Feane</h2>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All</p>
+                        <a href="#" class="btn main-btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      <!-- End About Section -->
+      <!-- Start Book -->
+      <section id="book" class="book padding-bottom padding-top">
+          <div class="container">
+            <div class="title mb-4 text-center">
+                <h2>Book A Table</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-9 mx-auto">
+                    <form action="">
+                        <div class="mb-3 input">
+                            <input type="text" placeholder="Your Name" class="form-control">
+                        </div>
+                        <div class="mb-3 input">
+                            <input type="text" placeholder="Your Number" class="form-control">
+                        </div>
+                        <div class="mb-3 input">
+                            <input type="text" placeholder="Your Email" class="form-control">
+                        </div>
+                        <div class="mb-3 input">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Open this select menu</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                              </select>
+                        </div>
+                        <div class="mb-3 input">
+                            <input type="date" class="form-control">
+                        </div>
+                        <a href="" class="btn main-btn text-uppercase">Book Now</a>
+                    </form>
+                </div>
+            </div>
+          </div>
+      </section>
+      <!-- End Book -->
+      <!-- Start Our Customers -->
+      <section class="customers padding-bottom">
+        <div class="container">
+            <div class="title mb-4 text-center">
+                <h2>What Says Our Customers</h2>
+            </div>
+            <div class="carousel slide" data-bs-ride="carousel" id="customers">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="box mx-auto col-lg-9 d-flex flex-column">
+                                    <div class="detail">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                                        <h6>Moana Michell</h6>
+                                        <p>magna aliqua</p>
+                                    </div>
+                                    <div class="img">
+                                        <img src="images/client1.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="box mx-auto col-lg-9 d-flex flex-column">
+                                    <div class="detail">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                                        <h6>Moana Michell</h6>
+                                        <p>magna aliqua</p>
+                                    </div>
+                                    <div class="img">
+                                        <img src="images/client2.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="box mx-auto col-lg-9 d-flex flex-column">
+                                    <div class="detail">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                                        <h6>Moana Michell</h6>
+                                        <p>magna aliqua</p>
+                                    </div>
+                                    <div class="img">
+                                        <img src="images/client3.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <button class="carousel-control-prev" type="button" data-bs-target="#customers" data-bs-slide="prev">
+                        <i class="fa-solid fa-angle-left"></i>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#customers" data-bs-slide="next">
+                        <i class="fa-solid fa-angle-right"></i>
+                        <span class="visually-hidden">Next</span>
+                    </button> -->
+              </div>
+        </div>
+      </section>
+      <!-- End Our Customers -->
+      <!-- Start Footer -->
+      <footer class="text-center">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-4 mb-5">
+                      <div class="contact">
+                          <h4>Contact Us</h4>
+                          <div class="info d-flex flex-column">
+                              <a href="#"><span>Location: </span><span>Mansoura</span></a>
+                              <a href="#"><span>Phone: </span><span>+201029654783</span></a>
+                              <a href="#"><span>Email: </span><span>demo@gmail.com</span></a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-4 mb-5">
+                      <div class="detail">
+                          <h4>Feane</h4>
+                          <p>Necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with</p>
+
+                      </div>
+                  </div>
+                  <div class="col-md-4 mb-5">
+                      <div class="hours">
+                        <h4>Opening Hours</h4>
+                        <p>Everyday</p>
+                        <p>10.00 Am -10.00 Pm</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="footer-info">
+                © 2022 All Rights Reserved By Free Html Templates
+              </div>
+          </div>
+      </footer>
+      <!-- End Footer -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
